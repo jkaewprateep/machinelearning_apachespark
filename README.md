@@ -195,9 +195,23 @@ featurizedData.show(truncate = False)                                        # �
 <p align="center" width="100%">
     <img width="40%" src="https://github.com/jkaewprateep/machinelearning_apachespark/blob/main/06.png">
 </p>
-🐑💬 ➰ 🤫 More than hashing we can create data feature extraction by mathematical lessons from class. Hashing can be performed during string lookup but to create more effects applied application support data to your data for better results. </br>
+🐑💬 ➰ 🤫 More than hashing we can create data feature extraction by mathematical lessons from class. Hashing can be performed during string lookup but to create more effects apply application support data to your data for better results. </br>
 
 [Mel-frequency response]( https://github.com/jkaewprateep/Mel-Frequency-response/blob/main/README.md )
+
+## ITIDF vectorization ( 🐑💬 ➰ Complexing expressions such as words from human languages and desirable expressions can be vectorized by IDITF algorithm that supports proficiency )
+
+```
+idf = IDF(inputCol="rawFeatures", outputCol="features")                      # 🧸💬 Create TIIDF instant object
+idfModel = idf.fit(featurizedData)                                           # 🧸💬 Create instant linear model and learning input data
+tfidfData = idfModel.transform(featurizedData)                               # 🧸💬 Trained model can apply knowledge on new feature data
+tfidfData.select("sentence", "features").show(truncate=False)                # 🧸💬 Display results or IO output
+```
+
+<p align="center" width="100%">
+    <img width="45%" src="https://github.com/jkaewprateep/machinelearning_apachespark/blob/main/07.png">
+</p>
+🐑💬 ➰ 🤫 Handling proficiency and attributes such as robot word phases or indicate text variables and number of time appearances is typical for file process because of object format type support and they are working as the same as vectorized object identification. </br>
 
 ## NLTK and implementation
 
