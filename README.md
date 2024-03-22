@@ -237,6 +237,18 @@ spark.stop()                                                                 # �
 
 ## NLTK and implementation
 
+### 🦤💬 Lexical diversity - application of the input text words from a document, data generation, speech, and natural languages to find target patterns or matching of the desirable functions is one task of NLTK. Lexical diversity is how significant predicting word or text input from the current process or process is to make them significant to improve the results. </br>
+
+💃( 👩‍🏫 )💬 This memo is simple but can explain how random selection target actions and co-relation finding are different, from the cylindrical secrete you can select any alphabets to create a sequence of word or responding text string to open the lock see the item inside or further create a combination of word from the spherical problem. </br>
+💃( 👩‍🏫 )💬 The problem is how to find the response word that makes the secrete breaks that take a short time process ⁉️ </br>
+👧💬 🎈 Languages and words are significant this word means because you live in an environment where you are comfortable with continued activities and honesty, you can select an item or recognize of object from the work environment or story you reading on the Internet in case you are not aware of backlog tracking. This method is powerful but effective remember a princess escapes from hidden palance by guessing answers from the questions of the Sultan and go back to take care of her parent. </br>
+💃( 👩‍🏫 )💬 In a modern world working with computers and high-power calculation units they create longer and more complex mixtures to prevent her from doing the same, this can create more chance by summing previous input or learning from mistakes and using results feedback to supervised artificial intelligence networks training to perform better than guessing password from dictionary or lexicons dictionary to create a combination. Languages and connections are supreme courts of the process but that is not enough to create an effective process. It will require more techniques to collect some correlation values but we are now studying Lexical diversity and this example can teach about finding action responses it is a process of improving ten or more times iterations to find the satisfaction results from our setting at the beginning of the project. </br>
+🧸💬 There are no algorithms to revert back to settings files or applications to find database correlation values but the database correlation values they are using are generated function, tracing backlog or output is clean by the prove method but possible by unmatch or modified secrete encryption library. In example of Oracle you need to use the Oracle database encryption library come with the database installation but some programmer may miss configuration and find external library or previous project library from different versions is matching to the current method of text and secrete encryption. </br>
+
+<p align="center" width="100%">
+    <img width="45%" src="https://github.com/jkaewprateep/machinelearning_apachespark/blob/main/09.png">
+</p>
+
 ## The n-grams word tokenizers and speech engine processing
 
 ## Attention networks
