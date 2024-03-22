@@ -165,6 +165,8 @@ result.show(truncate=False)                                                # �
 </p>
 🐑💬 ➰ 🤫 Compacts and can be synchronized as WinZip compression because one-hot vector lookup for table and dictionary </br>
 
+[Tokenizer for word sentence to sequence vector]( https://github.com/jkaewprateep/text_to_sequence/blob/main/README.md )
+
 ## NLTK and implementation
 
 ## The n-grams word tokenizers and speech engine processing
