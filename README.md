@@ -13,11 +13,19 @@ Implementing machine learning using Apache Spark
 *( 🐑💬 ➰  Before I create this notes I had IBM Datawarehouse and Apache Airflows experiment in my computer )*  </br>
 
 ### 🧸💬 It is important to manage the session or later start a session may need to identify the session name
+
 ```
 import findspark                                               # 🧸💬 Do not forget session name is the same as the database connection
 findspark.init()                                               # 🧸💬 before we need to limit session timeout manage the session
                                                                # 🧸💬 close and dispose before leave the program.
 from pyspark.sql import SparkSession
+```
+
+### 🧸💬 Create or re-use of the session
+
+```
+# 🧸💬 You can create a session and call it DekDee but this session name is used by process monitoring services
+spark = SparkSession.builder.appName("DekDee using Spark").getOrCreate() 
 ```
 
 ## ETL processes
