@@ -297,7 +297,8 @@ numberof_sentences = len(_temp);                                                
 🐐💬 This is a simple task to predict action response without proving from the previous input sequence or testing with the same function required, learning algorithms can create vary of result when prediction. </br>   
 🦭💬 One secret of this process is we need to treat a fair chance from all possible actions when prediction had some biases, slower and steady perform well with unknown than fast develop. </br> 
 🐯💬 I support this reason because of smarter trends to answer questions they know first or communication to people they know when the answer is not guaranteed but steady and continuous is required for the best result. </br>
-🐐💬 He could catch the van trunk but he selected the train. </br>
+🐐💬 He could catch the van trunk but he selected the train and do not forget in machine learning remote devices they had 100% accuracy punishment feedback. </br>
+🐑💬 ➰ That is because you are connected to the four-wired instead of human input. </br>
 
 ```
 from sklearn.metrics import auc;
