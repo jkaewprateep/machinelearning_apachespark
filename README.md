@@ -93,6 +93,17 @@ df.write.mode("overwrite").csv("student_transformed.csv", header=True)     # �
 spark.stop()                                                               # 🧸💬 Remove and dispose of the session as an initial state we discussed
 ```
 
+## Display data frame to console or output stream IO target
+
+```
+df.show(truncate = False)                                                  # 🧸💬 The saem as Pandas dataframe.show()
+```
+
+<p align="center" width="100%">
+    <img width="50%" src="https://github.com/jkaewprateep/machinelearning_apachespark/blob/main/02.png">
+</p>
+🐑💬 ➰ 🤫 Apache Spark support of both Spark native, work compatibility, and expression string. </br>
+
 ## Word phase tokenizers
 
 ## NLTK and implementation
