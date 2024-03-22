@@ -117,6 +117,11 @@ token_df.show(truncate=False)
 🐑💬 ➰ I will explain NLTK for natural language processing and Tensorflow vocaburay and tokenizer too to support multiple task assignments. </br>
 👧💬 🎈 ``` Warning it may contain of encoding/decoding value and loves song letter ``` </br>
 
+<p align="center" width="100%">
+    <img width="50%" src="https://github.com/jkaewprateep/machinelearning_apachespark/blob/main/03.png">
+</p>
+🐑💬 ➰ 🤫 Word combination is not new and introduced in a unique word processing program for command translation or speech composer </br>
+
 ## NLTK and implementation
 
 ## The n-grams word tokenizers and speech engine processing
