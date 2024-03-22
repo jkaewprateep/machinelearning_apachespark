@@ -35,8 +35,8 @@ data = [("student1",64,90),                                     # 🧸💬 A tup
         ("student2",59,100),                                    # or FS or HDFS is a sample of data communication objects here.
         ("student3",69,95),                                     # 🐑💬 ➰ Do not forget the dataset, and data module class as they 
         ("",70,110),                                            # can integrated with Django and Tensorflow as well.
-        ("student5",60,80),
-        ("student3",69,95),
+        ("student5",60,80),                                     # 🐐💬 Data integrations management system can implement at this 
+        ("student3",69,95),                                     # level with supporting of programming languages and bash scripts.
         ("student6",62,85),
         ("student7",65,80),
         ("student7",65,80)]
