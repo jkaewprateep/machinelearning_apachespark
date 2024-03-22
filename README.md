@@ -215,6 +215,24 @@ tfidfData.select("sentence", "features").show(truncate=False)                # �
 
 [data model and vocaburary]( https://github.com/jkaewprateep/Simple_encode_decode/blob/main/README.md ) </br>
 
+## StandardScaler ( 🐑💬 ➰ Data training model with settings )
+
+```
+from pyspark.ml.feature import VectorAssembler                               # 🧸💬 Import vector assembler library
+
+# 🧸💬 Create an instant vector assembler by its input
+assembler = VectorAssembler(inputCols=["Cylinders", "Engine Disp", "Horsepower", "Weight"], outputCol="features")
+transformed_data = assembler.transform(data)                                 # 🧸💬 Apply vector assemble settings to new data
+transformed_data.select("MPG","features").show(truncate = False)             # 🧸💬 Display results or IO output
+```
+
+<p align="center" width="100%">
+    <img width="20%" src="https://github.com/jkaewprateep/machinelearning_apachespark/blob/main/08.png">
+</p>
+🐑💬 ➰ 🤫 It features label mapping and you can do both left-to-right or right-to-left in TensorFlow as well as in Spark but you need to create a custom criterian function or loss estimation function for them to learn of the assignment data. </br>
+
+[Grey scales colour data generation]( https://github.com/jkaewprateep/Grayscale_to_colors/blob/main/README.md ) </br>
+
 ## NLTK and implementation
 
 ## The n-grams word tokenizers and speech engine processing
