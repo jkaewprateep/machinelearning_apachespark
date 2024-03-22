@@ -160,6 +160,11 @@ result = model.transform(textdata)                                         # �
 result.show(truncate=False)                                                # 🧸💬 Display results or IO output
 ```
 
+<p align="center" width="100%">
+    <img width="80%" src="https://github.com/jkaewprateep/machinelearning_apachespark/blob/main/04.png">
+</p>
+🐑💬 ➰ 🤫 Compacts and can be synchronized as WinZip compression because one-hot vector lookup for table and dictionary </br>
+
 ## NLTK and implementation
 
 ## The n-grams word tokenizers and speech engine processing
