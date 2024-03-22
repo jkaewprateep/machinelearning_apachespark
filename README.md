@@ -315,6 +315,22 @@ predictions = vectorNB.predict_proba(tfidf_X_test)[:, 1];                       
 roc_auc_score(y_test, predictions);                                                        # 🧸💬 Integration curve and area under curve, Proxima value.
 ```
 
+### Networks implemented with word tokenized and dataset categorize, document email fitering
+
+```
+document_spam = spam_data[spam_data["target"] == 1];                                       # 🧸💬 Pandas selection for spam target email.
+document_nonspam = spam_data[spam_data["target"] != 1];                                    # 🧸💬 Pandas selection for non-spam target email.
+
+document_spam["lenght"] = document_spam["text"].apply( lambda x: len(x) );                 # 🧸💬 Create array of lenght from its input.
+avg_length_document_spam = document_spam["lenght"].mean();                                 # 🧸💬 Aveage value of the array create previolusly.
+
+document_nonspam["lenght"] = document_nonspam["text"].apply( lambda x: len(x) );           # 🧸💬 Create array of lenght from its input.
+avg_length_nondocument_spam = document_nonspam["lenght"].mean();                           # 🧸💬 Aveage value of the array create previolusly.
+
+```
+
+[ University of Michigan - Applied Text Mining in Python - notes ]( https://github.com/jkaewprateep/lessonfrom_Applied_Text_Mining_in_Python/blob/main/README.md ) </br>
+
 ## The n-grams word tokenizers and speech engine processing
 
 ## Attention networks
