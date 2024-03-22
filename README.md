@@ -333,4 +333,11 @@ avg_length_nondocument_spam = document_nonspam["lenght"].mean();                
 
 ## The n-grams word tokenizers and speech engine processing
 
+👧💬 🎈 In not normal situations some frequencies will not properly respond and to their sources but none famous amplitude frequencies allow to filter of distorted signals for example. </br>
+
+<p align="center" width="100%">
+    <img width="50%" src="https://github.com/jkaewprateep/machinelearning_apachespark/blob/main/10.png">
+</p>
+🐑💬 ➰ 🤫 They removed the navigation command and they bring back in version 8 for some systems but it is because of the Dos operation system business case but they still famous and this feature available in the full versions of the operating system and some word processing application. </br>
+
 ## Attention networks
