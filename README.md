@@ -245,6 +245,8 @@ spark.stop()                                                                 # �
 💃( 👩‍🏫 )💬 In a modern world working with computers and high-power calculation units they create longer and more complex mixtures to prevent her from doing the same, this can create more chance by summing previous input or learning from mistakes and using results feedback to supervised artificial intelligence networks training to perform better than guessing password from dictionary or lexicons dictionary to create a combination. Languages and connections are supreme courts of the process but that is not enough to create an effective process. It will require more techniques to collect some correlation values but we are now studying Lexical diversity and this example can teach about finding action responses it is a process of improving ten or more times iterations to find the satisfaction results from our setting at the beginning of the project. </br>
 🧸💬 There are no algorithms to revert back to settings files or applications to find database correlation values but the database correlation values they are using are generated function, tracing backlog or output is clean by the prove method but possible by unmatch or modified secrete encryption library. In example of Oracle you need to use the Oracle database encryption library come with the database installation but some programmer may miss configuration and find external library or previous project library from different versions is matching to the current method of text and secrete encryption. </br>
 
+### Secrete breaks by correlation values response
+
 ```
 def nhl_correlation(): 
    
@@ -265,14 +267,15 @@ def nhl_correlation():
     return stats.pearsonr(population_by_region, win_loss_by_region)[0]
 ```
 
-[Introduction to Data Science in Python - Michigan University notes]( https://github.com/jkaewprateep/lessonfrom_Introduction_to_Data_Science_in_Python/blob/main/README.md )
+[Introduction to Data Science in Python - Michigan University - notes]( https://github.com/jkaewprateep/lessonfrom_Introduction_to_Data_Science_in_Python/blob/main/README.md ) </br>
 
 <p align="center" width="100%">
     <img width="45%" src="https://github.com/jkaewprateep/machinelearning_apachespark/blob/main/09.png">
 </p>
 🐑💬 ➰ 🤫 In the movie I watched the antique secrete chamber had a rubric spherical secrete password on it and they worked synchronized with alphanumeric characters, this is from a book I read about how the ancient scientists try to imagine about tools of gods or beyond technology that even now if this secretes door had been build I may be not able to open it and see someone from another side. </br>    
 🥺💬 They always leave some hints to find their name or secret method if there are a lot of infographics and a long time to discovery from a far land and expecting of different culture they should have a little scroll(s) can help to solve of this issue in case of someone need to take care of them by assignment because the power or King is beyond everything that is the first rule of the land. </br>
-</br>
+
+### Whitespace and word tokenizer
 
 ```
 text1_reconstituted = ' '.join(list(text1))
@@ -286,6 +289,8 @@ numberof_whitespaces = len(_temp);                                              
 _temp = nltk.sent_tokenize(text1_reconstituted)                                            # 🧸💬 For creating stntence token.
 numberof_sentences = len(_temp);                                                           # 🧸💬 Find number of sentences from the text object.
 ```
+
+[ University of Michigan - Applied Text Mining in Python - notes ]( https://github.com/jkaewprateep/lessonfrom_Applied_Text_Mining_in_Python/blob/main/README.md ) </br>
 
 ## The n-grams word tokenizers and speech engine processing
 
