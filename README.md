@@ -184,6 +184,21 @@ wordsData.show(truncate = False)                                            # �
 
 [Tokenizer for word sentence to sequence vector]( https://github.com/jkaewprateep/text_to_sequence/blob/main/README.md )
 
+```
+# 🧸💬 Create instant of hashing linear model with settings
+hashingTF = HashingTF(inputCol="words", outputCol="rawFeatures", numFeatures=10)
+featurizedData = hashingTF.transform(wordsData)                              # 🧸💬 Transform data frame by apply hash settings
+
+featurizedData.show(truncate = False)                                        # 🧸💬 Display results or IO output
+```
+
+<p align="center" width="100%">
+    <img width="40%" src="https://github.com/jkaewprateep/machinelearning_apachespark/blob/main/06.png">
+</p>
+🐑💬 ➰ 🤫 More than hashing we can create data feature extraction by mathematical lessons from class. Hashing can be performed during string lookup but to create more effects applied application support data to your data for better results. </br>
+
+[Mel-frequency response]( https://github.com/jkaewprateep/Mel-Frequency-response/blob/main/README.md )
+
 ## NLTK and implementation
 
 ## The n-grams word tokenizers and speech engine processing
