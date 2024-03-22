@@ -358,3 +358,5 @@ avg_length_nondocument_spam = document_nonspam["lenght"].mean();                
 <p align="center" width="100%">
     <img width="50%" src="https://github.com/jkaewprateep/machinelearning_apachespark/blob/main/12.png">
 </p>
+
+[Data-Sciences---R 🚧 🥺💬 Next]( https://github.com/jkaewprateep/Data-Sciences---R/blob/main/README.md )
