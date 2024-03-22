@@ -177,6 +177,11 @@ wordsData = tokenizer.transform(df)                                         # �
 wordsData.show(truncate = False)                                            # 🧸💬 Display results or IO output
 ```
 
+<p align="center" width="100%">
+    <img width="40%" src="https://github.com/jkaewprateep/machinelearning_apachespark/blob/main/05.png">
+</p>
+🐑💬 ➰ 🤫 Tokenizer can apply with target language model for multi-language support including English, Thai, Vietnamese, Japanese, Bermis or Singaporean lah </br>
+
 ## NLTK and implementation
 
 ## The n-grams word tokenizers and speech engine processing
