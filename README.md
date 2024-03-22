@@ -15,9 +15,9 @@ Implementing machine learning using Apache Spark
 ### 🧸💬 It is important to manage the session or later start a session may need to identify the session name
 
 ```
-import findspark                                               # 🧸💬 Do not forget the session name is the same as the database connection
-findspark.init()                                               # 🧸💬 before we need to limit session timeout manage the session
-                                                               # 🧸💬 close and dispose before leave the program.
+import findspark                                                         # 🧸💬 Do not forget the session name is the same as the database connection
+findspark.init()                                                         # 🧸💬 before we need to limit session timeout manage the session
+                                                                         # 🧸💬 close and dispose before leave the program.
 from pyspark.sql import SparkSession
 ```
 
@@ -31,12 +31,12 @@ spark = SparkSession.builder.appName("DekDee using Spark").getOrCreate()
 ### 🧸💬 Introduction to DataFrame and communication objects
 
 ```
-data = [("student1",64,90),                                     # 🧸💬 A tuple, np.array or Panda.Dataframe or dictionary 
-        ("student2",59,100),                                    # or FS or HDFS is a sample of data communication objects here.
-        ("student3",69,95),                                     # 🐑💬 ➰ Do not forget the dataset, and data module class as they 
-        ("",70,110),                                            # can integrated with Django and Tensorflow as well.
-        ("student5",60,80),                                     # 🐐💬 Data integrations management system can implement at this 
-        ("student3",69,95),                                     # level with support of programming languages and bash scripts.
+data = [("student1",64,90),                                               # 🧸💬 A tuple, np.array or Panda.Dataframe or dictionary 
+        ("student2",59,100),                                              # or FS or HDFS is a sample of data communication objects here.
+        ("student3",69,95),                                               # 🐑💬 ➰ Do not forget the dataset, and data module class as they 
+        ("",70,110),                                                      # can integrated with Django and Tensorflow as well.
+        ("student5",60,80),                                               # 🐐💬 Data integrations management system can implement at this 
+        ("student3",69,95),                                               # level with support of programming languages and bash scripts.
         ("student6",62,85),
         ("student7",65,80),
         ("student7",65,80)]
@@ -83,6 +83,15 @@ print("------------------------------------------------")
 - - -
 
 ## ETL processes
+
+```
+df = spark.read.csv("student-hw.csv", header=True, inferSchema=True)       # 🧸💬 Read dataset from file
+df.write.mode("overwrite").parquet("student-hw.parquet")                   # 🧸💬 Write parquet file
+df = spark.read.parquet("student-hw-single.parquet")                       # 🧸💬 Read parquet file
+df = df.withColumn("height_centimeters", expr("height_inches * 2.54"))     # 🧸💬 Create new column from expression
+df.write.mode("overwrite").csv("student_transformed.csv", header=True)     # 🧸💬 Save to .csv file
+spark.stop()                                                               # 🧸💬 Remove and dispose of the session as an initial state we discussed
+```
 
 ## Word phase tokenizers
 
