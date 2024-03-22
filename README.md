@@ -110,8 +110,8 @@ df.show(truncate = False)                                                  # �
 from pyspark.ml.feature import Tokenizer                                   # 🧸💬 Import Spark Tokenizer library
 
 tokenizer = Tokenizer(inputCol="sentence", outputCol="words")              # 🧸💬 Create tokenizer instant object
-token_df = tokenizer.transform(df)
-token_df.show(truncate=False)
+token_df = tokenizer.transform(df)                                         # 🧸💬 Apply tokenizer and setting to target dataframe
+token_df.show(truncate=False)                                              # 🧸💬 Display of the tokenized dataframe
 ```
 
 🐑💬 ➰ I will explain NLTK for natural language processing and Tensorflow vocaburay and tokenizer too to support multiple task assignments. </br>
@@ -120,7 +120,8 @@ token_df.show(truncate=False)
 <p align="center" width="100%">
     <img width="50%" src="https://github.com/jkaewprateep/machinelearning_apachespark/blob/main/03.png">
 </p>
-🐑💬 ➰ 🤫 Word combination is not new and introduced in a unique word processing program for command translation or speech composer </br>
+🐑💬 ➰ 🤫 Word combination is not new and introduced in a unique word processing program for command translation or speech composer. </br>
+🛥️💬 He mails you everyday ... </br>
 
 ## NLTK and implementation
 
