@@ -149,6 +149,17 @@ sequences_mapping_string = tf.constant( sequences_mapping_string, shape=(1,12) )
 [data model and vocaburary]( https://github.com/jkaewprateep/Simple_encode_decode/blob/main/README.md ) </br>
 [speriral secret for networks comm exames]( https://github.com/jkaewprateep/SphericalSecreteWord/blob/main/sample2 ) </br>
 
+## Vectorization ( 🐑💬 ➰ Data model is already vector by vocabulary lookup )
+
+```
+from pyspark.ml.feature import CountVectorizer                             # 🧸💬 Import count vector library
+
+cv = CountVectorizer(inputCol="words", outputCol="features")               # 🧸💬 Create instant of count vector with settings
+model = cv.fit(textdata)                                                   # 🧸💬 Create instant of a linear model with learning
+result = model.transform(textdata)                                         # 🧸💬 Transform target input data, apply any data with shape equal
+result.show(truncate=False)                                                # 🧸💬 Display results or IO output
+```
+
 ## NLTK and implementation
 
 ## The n-grams word tokenizers and speech engine processing
