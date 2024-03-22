@@ -120,8 +120,33 @@ token_df.show(truncate=False)                                              # �
 <p align="center" width="100%">
     <img width="50%" src="https://github.com/jkaewprateep/machinelearning_apachespark/blob/main/03.png">
 </p>
-🐑💬 ➰ 🤫 Word combination is not new and introduced in a unique word processing program for command translation or speech composer. </br>
+🐑💬 ➰ 🤫 Word combination is not new and introduced in a unique word processing program for command translation or speech composition. </br>
 🛥️💬 He mails you everyday ... </br>
+
+### TensorFlow sample encoder/decoder using data model and vocaurary
+
+```
+text = "I love cats"                                                       # 🧸💬 Sample word string input
+# 🧸💬 Simple tokenizer you can apply an alpha function or specification-related token you to apply.
+tokenizer = tf.keras.preprocessing.text.Tokenizer(num_words=10000, oov_token='<oov>')
+tokenizer.fit_on_texts([text])                                             # 🧸💬 Break input word by tokenizer
+```
+
+```
+text = "I love cats"                                                       # 🧸💬 Sample word string input
+# 🧸💬 Sample of vocabulary as spherical secrete codes 
+vocab = [ "a", "b", "c", "d", "e", "f", "g", "h", "I", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "_" ]
+# 🧸💬 Sample of input data or output from the previous token
+data = tf.constant([["_", "_", "_", "I"], ["l", "o", "v", "e"], ["c", "a", "t", "s"]])
+
+# 🧸💬 Define network custom layer for string lookup vocabulary
+layer = tf.keras.layers.StringLookup(vocabulary=vocab)
+sequences_mapping_string = layer(data)                                     # 🧸💬 Apply instant setting to target input
+# 🧸💬 Reshape of the output
+sequences_mapping_string = tf.constant( sequences_mapping_string, shape=(1,12) )
+```
+
+[data model and vocaburary]( https://github.com/jkaewprateep/Simple_encode_decode/blob/main/README.md )
 
 ## NLTK and implementation
 
