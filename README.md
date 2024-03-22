@@ -232,6 +232,7 @@ transformed_data.select("MPG","features").show(truncate = False)             # �
 🐑💬 ➰ 🤫 It features label mapping and you can do both left-to-right or right-to-left in TensorFlow as well as in Spark but you need to create a custom criterian function or loss estimation function for them to learn of the assignment data. </br>
 
 [Grey scales colour data generation]( https://github.com/jkaewprateep/Grayscale_to_colors/blob/main/README.md ) </br>
+[Train model n-grams selection]( https://github.com/jkaewprateep/text_as_sequences/blob/main/README.md ) </br>
 
 ## NLTK and implementation
 
