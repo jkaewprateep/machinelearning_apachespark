@@ -245,6 +245,28 @@ spark.stop()                                                                 # �
 💃( 👩‍🏫 )💬 In a modern world working with computers and high-power calculation units they create longer and more complex mixtures to prevent her from doing the same, this can create more chance by summing previous input or learning from mistakes and using results feedback to supervised artificial intelligence networks training to perform better than guessing password from dictionary or lexicons dictionary to create a combination. Languages and connections are supreme courts of the process but that is not enough to create an effective process. It will require more techniques to collect some correlation values but we are now studying Lexical diversity and this example can teach about finding action responses it is a process of improving ten or more times iterations to find the satisfaction results from our setting at the beginning of the project. </br>
 🧸💬 There are no algorithms to revert back to settings files or applications to find database correlation values but the database correlation values they are using are generated function, tracing backlog or output is clean by the prove method but possible by unmatch or modified secrete encryption library. In example of Oracle you need to use the Oracle database encryption library come with the database installation but some programmer may miss configuration and find external library or previous project library from different versions is matching to the current method of text and secrete encryption. </br>
 
+```
+def nhl_correlation(): 
+   
+    new_nhldf = create_nhldataset( );                                                      # 🧸💬 Create a new dataset from a custom definition.
+    new_nhldf = remove_index(new_nhldf, 0);                                                # 🧸💬 Secrete order (1) for target correlation value.
+    new_nhldf = remove_index(new_nhldf, 18);                                               # 🧸💬 Secrete order (2) for target correlation value.
+    new_nhldf = remove_index(new_nhldf, 21);                                               # 🧸💬 Secrete order (3) for target correlation value.
+    ###
+    
+    win_loss_by_region = np.asarray(new_nhldf["W/L"], dtype=np.float32);                   # 🧸💬 Conversion and assign variable value.
+    population_by_region = np.asarray(new_nhldf["Population"], dtype=np.float32);          # 🧸💬 Conversion and assign variable value.
+
+    # 🧸💬 Verification part.
+    assert len(population_by_region) == len(win_loss_by_region), "Q2: Your lists must be the same length"
+    assert len(population_by_region) == 28, "Q2: There should be 28 teams being analysed for NBA"
+
+    # 🧸💬 Return the target correlation number.
+    return stats.pearsonr(population_by_region, win_loss_by_region)[0]
+```
+
+[Introduction to machine learning Michigan University]( https://github.com/jkaewprateep/lessonfrom_Introduction_to_Data_Science_in_Python/blob/main/README.md )
+
 <p align="center" width="100%">
     <img width="45%" src="https://github.com/jkaewprateep/machinelearning_apachespark/blob/main/09.png">
 </p>
