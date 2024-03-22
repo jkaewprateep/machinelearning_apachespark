@@ -265,7 +265,7 @@ def nhl_correlation():
     return stats.pearsonr(population_by_region, win_loss_by_region)[0]
 ```
 
-[Introduction to machine learning Michigan University]( https://github.com/jkaewprateep/lessonfrom_Introduction_to_Data_Science_in_Python/blob/main/README.md )
+[Introduction to Data Science in Python - Michigan University notes]( https://github.com/jkaewprateep/lessonfrom_Introduction_to_Data_Science_in_Python/blob/main/README.md )
 
 <p align="center" width="100%">
     <img width="45%" src="https://github.com/jkaewprateep/machinelearning_apachespark/blob/main/09.png">
