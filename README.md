@@ -49,6 +49,31 @@ data = [("student1",64,90),                                     # 🧸💬 A tup
 df = spark.createDataFrame(data, ["student","height_inches","weight_pounds"])
 ```
 
+- - -
+
+### 🧸💬 This is sample of create instant data frame from statics value
+
+🐑💬 ➰  Both Apache Spark and Pandas have .csv reader object and file reader and .json format support with build in functions. </br>
+
+```
+_class = ["fruits", "fruits", "vegetable", "vegetable", "vegetable"]
+calrories = [95.0, 202.0, 164.0, np.nan, 207.0]
+colnames = ["class", "avg calories per unit"]
+fruits = ["apple", "mango", "potato", "onion", "broccoli"]
+
+series = {}
+for i in range(len(fruits)):
+    series[fruits[i]] = [_class[i], calrories[i]]
+    
+series = pd.DataFrame(series)
+series = series.T
+
+for i in range(len(colnames)):
+    series.rename(columns={i: colnames[i]}, inplace=True)
+
+print(series)
+print("------------------------------------------------")
+```
 
 ## ETL processes
 
