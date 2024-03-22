@@ -347,5 +347,8 @@ avg_length_nondocument_spam = document_nonspam["lenght"].mean();                
 <p align="center" width="100%">
     <img width="50%" src="https://github.com/jkaewprateep/machinelearning_apachespark/blob/main/11.png">
 </p>
+🦭💬 In n-grams application in speech engine and natural language processing the recall effects is accumulate of probability and increase the chances every time the function predicts for target values. </br> 
+
+[ University of Michigan - Applied Text Mining in Python - notes ]( https://github.com/jkaewprateep/lessonfrom_Applied_Text_Mining_in_Python/blob/main/README.md ) </br>
 
 ## Attention networks
