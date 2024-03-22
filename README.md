@@ -352,3 +352,9 @@ avg_length_nondocument_spam = document_nonspam["lenght"].mean();                
 [ University of Michigan - Applied Text Mining in Python - notes ]( https://github.com/jkaewprateep/lessonfrom_Applied_Text_Mining_in_Python/blob/main/README.md ) </br>
 
 ## Attention networks
+
+👧💬 🎈 In many examples we had presented the teacher-student networks in Tensorflow for speech tasks as attention networks or communications issues solutions. This is one example of attention networks in R studio language, recall effects of model learning from a trained model in R studio language. </br>
+
+<p align="center" width="100%">
+    <img width="50%" src="https://github.com/jkaewprateep/machinelearning_apachespark/blob/main/12.png">
+</p>
