@@ -213,6 +213,8 @@ tfidfData.select("sentence", "features").show(truncate=False)                # �
 </p>
 🐑💬 ➰ 🤫 Handling proficiency and attributes such as robot word phases or indicate text variables and number of time appearances is typical for file process because of object format type support and they are working as the same as vectorized object identification. </br>
 
+[data model and vocaburary]( https://github.com/jkaewprateep/Simple_encode_decode/blob/main/README.md ) </br>
+
 ## NLTK and implementation
 
 ## The n-grams word tokenizers and speech engine processing
