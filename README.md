@@ -146,7 +146,8 @@ sequences_mapping_string = layer(data)                                     # ðŸ§
 sequences_mapping_string = tf.constant( sequences_mapping_string, shape=(1,12) )
 ```
 
-[data model and vocaburary]( https://github.com/jkaewprateep/Simple_encode_decode/blob/main/README.md )
+[data model and vocaburary]( https://github.com/jkaewprateep/Simple_encode_decode/blob/main/README.md ) </br>
+[speriral secret for networks comm exames]( https://github.com/jkaewprateep/SphericalSecreteWord/blob/main/sample2 ) </br>
 
 ## NLTK and implementation
 
