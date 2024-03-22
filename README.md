@@ -75,6 +75,10 @@ print(series)
 print("------------------------------------------------")
 ```
 
+<p align="center" width="100%">
+    <img width="50%" src="https://github.com/jkaewprateep/machinelearning_apachespark/blob/main/01.png">
+</p>
+
 ## ETL processes
 
 ## Word phase tokenizers
