@@ -126,14 +126,14 @@ token_df.show(truncate=False)                                              # �
 ### TensorFlow sample encoder/decoder using data model and vocaurary
 
 ```
-text = "I love cats"                                                       # 🧸💬 Sample word string input
+textdata = "I love cats"                                                   # 🧸💬 Sample word string input
 # 🧸💬 Simple tokenizer you can apply an alpha function or specification-related token you to apply.
 tokenizer = tf.keras.preprocessing.text.Tokenizer(num_words=10000, oov_token='<oov>')
-tokenizer.fit_on_texts([text])                                             # 🧸💬 Break input word by tokenizer
+tokenizer.fit_on_texts([textdata])                                         # 🧸💬 Break input word by tokenizer
 ```
 
 ```
-text = "I love cats"                                                       # 🧸💬 Sample word string input
+textdata = "I love cats"                                                   # 🧸💬 Sample word string input
 # 🧸💬 Sample of vocabulary as spherical secrete codes 
 vocab = [ "a", "b", "c", "d", "e", "f", "g", "h", "I", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "_" ]
 # 🧸💬 Sample of input data or output from the previous token
@@ -166,6 +166,16 @@ result.show(truncate=False)                                                # �
 🐑💬 ➰ 🤫 Compacts and can be synchronized as WinZip compression because one-hot vector lookup for table and dictionary </br>
 
 [Tokenizer for word sentence to sequence vector]( https://github.com/jkaewprateep/text_to_sequence/blob/main/README.md )
+
+## Hashing algorithms ( 🐑💬 ➰ It does not require hashing algorithm since the input is a vector )
+
+```
+from pyspark.ml.feature import HashingTF, IDF, Tokenizer                    # 🧸💬  Import HashingTF, IDF and Tokenizer library
+
+tokenizer = Tokenizer(inputCol="sentence", outputCol="words")               # 🧸💬 Create instant of tokenizer with settings
+wordsData = tokenizer.transform(df)                                         # 🧸💬 Transform target input data by apply token settings
+wordsData.show(truncate = False)                                            # 🧸💬 Display results or IO output
+```
 
 ## NLTK and implementation
 
