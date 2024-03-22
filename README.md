@@ -12,10 +12,11 @@ Implementing machine learning using Apache Spark
 🐑💬 ➰ The ELT process is a flexible process to extract, load, and transform or extract, transfer, and load data into data lakes to create data pipelines for applications that can work with the instant of application services or data services. We are call data lakes and data pipelines because of the commercial name but they are databases with data integration services and Apache Spark comes with a build automation application routing process and support of Linux and programming language command and batch command at the data pipeline execution process with monitoring tools and applications setting configuration level. Trancent is another option they came with web application GUI and application settings for remote execution process and series execution with multiple methods notifications and drag and drop handlers. ⚙️⚙️⚙️ ...</br>
 *( 🐑💬 ➰  Before I create this notes I had IBM Datawarehouse and Apache Airflows experiment in my computer )*  </br>
 
+### 🧸💬 It is important to manage the session or later start a session may need to identify the session name
 ```
-import findspark
-findspark.init()
-
+import findspark                                               # 🧸💬 Do not forget session name is the same as the database connection
+findspark.init()                                               # 🧸💬 before we need to limit session timeout manage the session
+                                                               # 🧸💬 close and dispose before leave the program.
 from pyspark.sql import SparkSession
 ```
 
