@@ -270,6 +270,21 @@ def nhl_correlation():
 <p align="center" width="100%">
     <img width="45%" src="https://github.com/jkaewprateep/machinelearning_apachespark/blob/main/09.png">
 </p>
+🐑💬 ➰ 🤫 In the movie I watched the antique secrete chamber had a rubric spherical secrete password on it and they worked synchronized with alphanumeric characters, this is from a book I read about how the ancient scientists try to imagine about tools of gods or beyond technology that even now if this secretes door had been build I may be not able to open it and see someone from another side. </br>    
+🥺💬 They always leave some hints to find their name or secret method if there are a lot of infographics and a long time to discovery from a far land and expecting of different culture they should have a little scroll(s) can help to solve of this issue in case of someone need to take care of them by assignment because the power or King is beyond everything that is the first rule of the land. </br>
+
+```
+text1_reconstituted = ' '.join(list(text1))
+
+tk = WhitespaceTokenizer();                                                                # 🧸💬 For creating word token (separator characteristic ) from whitespaces string formats.
+_temp = tk.tokenize(text1_reconstituted);                                                  # 🧸💬 Apply token on the text string object. 
+
+numberof_whitespaces = len(_temp);                                                         # 🧸💬 Find number of words by whitespace.
+
+#################################################################
+_temp = nltk.sent_tokenize(text1_reconstituted)                                            # 🧸💬 For creating stntence token.
+numberof_sentences = len(_temp);                                                           # 🧸💬 Find number of sentences from the text object.
+```
 
 ## The n-grams word tokenizers and speech engine processing
 
