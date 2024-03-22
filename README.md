@@ -224,6 +224,7 @@ from pyspark.ml.feature import VectorAssembler                               # �
 assembler = VectorAssembler(inputCols=["Cylinders", "Engine Disp", "Horsepower", "Weight"], outputCol="features")
 transformed_data = assembler.transform(data)                                 # 🧸💬 Apply vector assemble settings to new data
 transformed_data.select("MPG","features").show(truncate = False)             # 🧸💬 Display results or IO output
+spark.stop()                                                                 # 🧸💬 Close and dispose session
 ```
 
 <p align="center" width="100%">
