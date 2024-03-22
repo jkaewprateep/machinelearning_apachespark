@@ -106,6 +106,17 @@ df.show(truncate = False)                                                  # �
 
 ## Word phase tokenizers
 
+```
+from pyspark.ml.feature import Tokenizer                                   # 🧸💬 Import Spark Tokenizer library
+
+tokenizer = Tokenizer(inputCol="sentence", outputCol="words")              # 🧸💬 Create tokenizer instant object
+token_df = tokenizer.transform(df)
+token_df.show(truncate=False)
+```
+
+🐑💬 ➰ I will explain NLTK for natural language processing and Tensorflow vocaburay and tokenizer too to support multiple task assignments. </br>
+👧💬 🎈 ``` Warning it may contain of encoding/decoding value and loves song letter ``` </br>
+
 ## NLTK and implementation
 
 ## The n-grams word tokenizers and speech engine processing
