@@ -292,6 +292,27 @@ numberof_sentences = len(_temp);                                                
 
 [ University of Michigan - Applied Text Mining in Python - notes ]( https://github.com/jkaewprateep/lessonfrom_Applied_Text_Mining_in_Python/blob/main/README.md ) </br>
 
+### The steady area under ROC curves
+
+🐐💬 This is a simple task to predict action response without proving from the previous input sequence or testing with the same function required, learning algorithms can create vary of result when prediction. </br>   
+🦭💬 One secret of this process is we need to treat a fair chance from all possible actions when prediction had some biases, slower and steady perform well with unknown than fast develop. </br> 
+🐯💬 I support this reason because of smarter trends to answer questions they know first or communication to people they know when the answer is not guaranteed but steady and continue is required for the best result. </br>
+
+```
+from sklearn.metrics import auc;
+
+tfidf = TfidfVectorizer(min_df=3);                                                         # 🧸💬 Create TFid object with minimum 3 words appearnce.
+vectorNB = MultinomialNB(alpha=0.1);                                                       # 🧸💬 Create Multinomial model with alpha = 0.1
+                                                                                           # 🧸💬 Polynomail with multi-coefficients.
+vectorNB.fit(tfidf_X_train, y_train);                                                      # 🧸💬 Traning for weights momentum.
+
+tfidf_X_train = tfidf.fit_transform(X_train);                                              # 🧸💬 Array shape property reshape for prediction and train.
+tfidf_X_test = tfidf.transform(X_test);                                                    # 🧸💬 Array shape property reshape for prediction.
+predictions = vectorNB.predict_proba(tfidf_X_test)[:, 1];                                  # 🧸💬 Prediction from transformed, (label, "array values")
+
+roc_auc_score(y_test, predictions);                                                        # 🧸💬 Integration curve and area under curve, Proxima value.
+```
+
 ## The n-grams word tokenizers and speech engine processing
 
 ## Attention networks
