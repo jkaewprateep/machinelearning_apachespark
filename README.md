@@ -182,6 +182,8 @@ wordsData.show(truncate = False)                                            # �
 </p>
 🐑💬 ➰ 🤫 Tokenizer can apply with target language model for multi-language support including English, Thai, Vietnamese, Japanese, Bermis or Singaporean lah </br>
 
+[Tokenizer for word sentence to sequence vector]( https://github.com/jkaewprateep/text_to_sequence/blob/main/README.md )
+
 ## NLTK and implementation
 
 ## The n-grams word tokenizers and speech engine processing
