@@ -340,4 +340,12 @@ avg_length_nondocument_spam = document_nonspam["lenght"].mean();                
 </p>
 🐑💬 ➰ 🤫 They removed the navigation command and they bring back in version 8 for some systems but it is because of the Dos operation system business case but they still famous and this feature available in the full versions of the operating system and some word processing application. </br>
 
+### Recall effects this also one problem in probability actions prediction for example from the n-grams, in gramms.
+
+👧💬 🎈 In radio signal stereo and frequency responses, the sound is created from the near side and far side as a tube to create amplitude differentiation, this amplitude differentiation removes noises and creates signals with harmonics radio signals frequency, they are radio grammars and communications required of attitudes, the magnitude of frequency accumulator is created to multiply of the effects. It happens inside the radio with high power output without anyone knowing when to listen to them. The recall feedback saved us from using high voltage energy and told us about news and announcements before today the same as reflection light from flash from low battery voltages can create high contrast power that is recall effects. </br>         
+
+<p align="center" width="100%">
+    <img width="50%" src="https://github.com/jkaewprateep/machinelearning_apachespark/blob/main/11.png">
+</p>
+
 ## Attention networks
