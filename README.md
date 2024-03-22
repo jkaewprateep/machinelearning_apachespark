@@ -53,25 +53,25 @@ df = spark.createDataFrame(data, ["student","height_inches","weight_pounds"])
 
 ### 🧸💬 This is sample of create instant data frame from statics value
 
-🐑💬 ➰  Both Apache Spark and Pandas have .csv reader object and file reader and .json format support with build in functions. </br>
+🐑💬 ➰  Both Apache Spark and Pandas have .csv reader object and file reader and .json format support with built-in functions. </br>
 
 ```
-_class = ["fruits", "fruits", "vegetable", "vegetable", "vegetable"]
-calrories = [95.0, 202.0, 164.0, np.nan, 207.0]
-colnames = ["class", "avg calories per unit"]
-fruits = ["apple", "mango", "potato", "onion", "broccoli"]
+_class = ["fruits", "fruits", "vegetable", "vegetable", "vegetable"]      # 🧸💬 A class names array
+calrories = [95.0, 202.0, 164.0, np.nan, 207.0]                           # 🧸💬 A column record values array
+colnames = ["class", "avg calories per unit"]                             # 🧸💬 A column name values array
+fruits = ["apple", "mango", "potato", "onion", "broccoli"]                # 🧸💬 A category name values array
 
-series = {}
-for i in range(len(fruits)):
-    series[fruits[i]] = [_class[i], calrories[i]]
+series = {}                                                               # 🧸💬 Create an empty object for the record to fill
+for i in range(len(fruits)):                                              # 🧸💬 Iterations by the object available
+    series[fruits[i]] = [_class[i], calrories[i]]                         # 🧸💬 Create Pandas series with objects value
     
-series = pd.DataFrame(series)
-series = series.T
+series = pd.DataFrame(series)                                             # 🧸💬 Create instant of pandas series
+series = series.T                                                         # 🧸💬 Transpose organize columns
 
-for i in range(len(colnames)):
-    series.rename(columns={i: colnames[i]}, inplace=True)
+for i in range(len(colnames)):                                            # 🧸💬 Iteration for items in column names array
+    series.rename(columns={i: colnames[i]}, inplace=True)                 # 🧸💬 Rename of the column to value in column name array
 
-print(series)
+print(series)                                                             # 🧸💬 Print out display
 print("------------------------------------------------")
 ```
 
